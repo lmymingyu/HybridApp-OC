@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA02DDD32085F1C400548CE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA02DDD22085F1C400548CE3 /* AppDelegate.m */; };
+		EA02DDD62085F1C400548CE3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA02DDD52085F1C400548CE3 /* HomeViewController.m */; };
+		EA02DDD92085F1C400548CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA02DDD72085F1C400548CE3 /* Main.storyboard */; };
+		EA02DDDB2085F1C700548CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA02DDDA2085F1C700548CE3 /* Assets.xcassets */; };
+		EA02DDDE2085F1C700548CE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA02DDDC2085F1C700548CE3 /* LaunchScreen.storyboard */; };
+		EA02DDE12085F1C700548CE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA02DDE02085F1C700548CE3 /* main.m */; };
+		EA02DDF12085F4F300548CE3 /* LMYHybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA02DDF02085F4F300548CE3 /* LMYHybridViewController.m */; };
+		EA02DDF72085FDAB00548CE3 /* NSString+LMYHybrid.m in Sources */ = {isa = PBXBuildFile; fileRef = EA02DDF62085FDAB00548CE3 /* NSString+LMYHybrid.m */; };
+		EA8DABBE209167690014EEC8 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8DABBD209167690014EEC8 /* FindViewController.m */; };
+		EA8DABC1209167720014EEC8 /* GoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8DABC0209167720014EEC8 /* GoodsViewController.m */; };
+		EA8DABC42091677A0014EEC8 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8DABC32091677A0014EEC8 /* MineViewController.m */; };
+		EA8DABC72091AADD0014EEC8 /* NSDictionary+LMYHybrid.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8DABC62091AADD0014EEC8 /* NSDictionary+LMYHybrid.m */; };
+		EA9572DD20862E2C0049819A /* LMYHybridToos.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9572DC20862E2C0049819A /* LMYHybridToos.m */; };
+		EA9572DF208631DF0049819A /* LMYHybirdSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA9572DE208631DF0049819A /* LMYHybirdSettings.plist */; };
+		EA9572E5208637CC0049819A /* NSURL+LMYHybrid.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9572E4208637CC0049819A /* NSURL+LMYHybrid.m */; };
+		EA9572E82086E2850049819A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9572E72086E2850049819A /* TestViewController.m */; };
+		EA9572EB208723200049819A /* LMYHybridWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9572EA208723200049819A /* LMYHybridWebView.m */; };
+		EA9572EE208974FD0049819A /* UIViewController+LMYHybrid.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9572ED208974FD0049819A /* UIViewController+LMYHybrid.m */; };
+		EA9572F0208986D50049819A /* NativeViewMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA9572EF208986D50049819A /* NativeViewMap.plist */; };
+		EAC47AF720B6B31600B013CE /* LMYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC47AF620B6B31600B013CE /* LMYTabBar.m */; };
+		EAC47AFA20B6B4E000B013CE /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC47AF920B6B4E000B013CE /* RootTabBarController.m */; };
+		EAC47B0420B79E2C00B013CE /* UIView+LLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC47AFC20B79E2C00B013CE /* UIView+LLSegmentBar.m */; };
+		EAC47B0520B79E2C00B013CE /* LLSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC47B0020B79E2C00B013CE /* LLSegmentBarConfig.m */; };
+		EAC47B0620B79E2C00B013CE /* LLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC47B0220B79E2C00B013CE /* LLSegmentBar.m */; };
+		EAC47B0720B79E2C00B013CE /* LLSegmentBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC47B0320B79E2C00B013CE /* LLSegmentBarVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA02DDCE2085F1C400548CE3 /* HybridAppOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybridAppOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA02DDD12085F1C400548CE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA02DDD22085F1C400548CE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA02DDD42085F1C400548CE3 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EA02DDD52085F1C400548CE3 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EA02DDD82085F1C400548CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA02DDDA2085F1C700548CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA02DDDD2085F1C700548CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA02DDDF2085F1C700548CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA02DDE02085F1C700548CE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA02DDEF2085F4F300548CE3 /* LMYHybridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMYHybridViewController.h; sourceTree = "<group>"; };
+		EA02DDF02085F4F300548CE3 /* LMYHybridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMYHybridViewController.m; sourceTree = "<group>"; };
+		EA02DDF52085FDAB00548CE3 /* NSString+LMYHybrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LMYHybrid.h"; sourceTree = "<group>"; };
+		EA02DDF62085FDAB00548CE3 /* NSString+LMYHybrid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LMYHybrid.m"; sourceTree = "<group>"; };
+		EA8DABBC209167690014EEC8 /* FindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		EA8DABBD209167690014EEC8 /* FindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		EA8DABBF209167720014EEC8 /* GoodsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsViewController.h; sourceTree = "<group>"; };
+		EA8DABC0209167720014EEC8 /* GoodsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsViewController.m; sourceTree = "<group>"; };
+		EA8DABC22091677A0014EEC8 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		EA8DABC32091677A0014EEC8 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		EA8DABC52091AADD0014EEC8 /* NSDictionary+LMYHybrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LMYHybrid.h"; sourceTree = "<group>"; };
+		EA8DABC62091AADD0014EEC8 /* NSDictionary+LMYHybrid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LMYHybrid.m"; sourceTree = "<group>"; };
+		EA9572DB20862E2C0049819A /* LMYHybridToos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMYHybridToos.h; sourceTree = "<group>"; };
+		EA9572DC20862E2C0049819A /* LMYHybridToos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMYHybridToos.m; sourceTree = "<group>"; };
+		EA9572DE208631DF0049819A /* LMYHybirdSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LMYHybirdSettings.plist; sourceTree = "<group>"; };
+		EA9572E3208637CC0049819A /* NSURL+LMYHybrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+LMYHybrid.h"; sourceTree = "<group>"; };
+		EA9572E4208637CC0049819A /* NSURL+LMYHybrid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LMYHybrid.m"; sourceTree = "<group>"; };
+		EA9572E62086E2850049819A /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		EA9572E72086E2850049819A /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		EA9572E9208723200049819A /* LMYHybridWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMYHybridWebView.h; sourceTree = "<group>"; };
+		EA9572EA208723200049819A /* LMYHybridWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMYHybridWebView.m; sourceTree = "<group>"; };
+		EA9572EC208974FD0049819A /* UIViewController+LMYHybrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LMYHybrid.h"; sourceTree = "<group>"; };
+		EA9572ED208974FD0049819A /* UIViewController+LMYHybrid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LMYHybrid.m"; sourceTree = "<group>"; };
+		EA9572EF208986D50049819A /* NativeViewMap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NativeViewMap.plist; sourceTree = "<group>"; };
+		EA9572F12089C6A20049819A /* EnumTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumTool.h; sourceTree = "<group>"; };
+		EAC47AF520B6B31600B013CE /* LMYTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMYTabBar.h; sourceTree = "<group>"; };
+		EAC47AF620B6B31600B013CE /* LMYTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMYTabBar.m; sourceTree = "<group>"; };
+		EAC47AF820B6B4E000B013CE /* RootTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		EAC47AF920B6B4E000B013CE /* RootTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		EAC47AFC20B79E2C00B013CE /* UIView+LLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLSegmentBar.m"; sourceTree = "<group>"; };
+		EAC47AFD20B79E2C00B013CE /* LLSegmentBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSegmentBarConfig.h; sourceTree = "<group>"; };
+		EAC47AFE20B79E2C00B013CE /* LLSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSegmentBar.h; sourceTree = "<group>"; };
+		EAC47AFF20B79E2C00B013CE /* LLSegmentBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSegmentBarVC.h; sourceTree = "<group>"; };
+		EAC47B0020B79E2C00B013CE /* LLSegmentBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSegmentBarConfig.m; sourceTree = "<group>"; };
+		EAC47B0120B79E2C00B013CE /* UIView+LLSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLSegmentBar.h"; sourceTree = "<group>"; };
+		EAC47B0220B79E2C00B013CE /* LLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSegmentBar.m; sourceTree = "<group>"; };
+		EAC47B0320B79E2C00B013CE /* LLSegmentBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSegmentBarVC.m; sourceTree = "<group>"; };
+		EAC47B0920B7A7A000B013CE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA02DDCB2085F1C400548CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA02DDC52085F1C400548CE3 = {
+			isa = PBXGroup;
+			children = (
+				EAC47B0920B7A7A000B013CE /* PrefixHeader.pch */,
+				EA02DDD02085F1C400548CE3 /* HybridAppOC */,
+				EA02DDCF2085F1C400548CE3 /* Products */,
+				EA02DDEC2085F44100548CE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA02DDCF2085F1C400548CE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA02DDCE2085F1C400548CE3 /* HybridAppOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA02DDD02085F1C400548CE3 /* HybridAppOC */ = {
+			isa = PBXGroup;
+			children = (
+				EAC47AF320B6B27500B013CE /* Common */,
+				EAC47AEE20B6B15A00B013CE /* Views */,
+				EA02DDD12085F1C400548CE3 /* AppDelegate.h */,
+				EA02DDD22085F1C400548CE3 /* AppDelegate.m */,
+				EA9572E62086E2850049819A /* TestViewController.h */,
+				EA9572E72086E2850049819A /* TestViewController.m */,
+				EA02DDD72085F1C400548CE3 /* Main.storyboard */,
+				EA02DDDA2085F1C700548CE3 /* Assets.xcassets */,
+				EA02DDDC2085F1C700548CE3 /* LaunchScreen.storyboard */,
+				EA02DDDF2085F1C700548CE3 /* Info.plist */,
+				EA02DDE02085F1C700548CE3 /* main.m */,
+			);
+			path = HybridAppOC;
+			sourceTree = "<group>";
+		};
+		EA02DDEC2085F44100548CE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA02DDEE2085F4E100548CE3 /* LMYHybrid */ = {
+			isa = PBXGroup;
+			children = (
+				EA02DDEF2085F4F300548CE3 /* LMYHybridViewController.h */,
+				EA02DDF02085F4F300548CE3 /* LMYHybridViewController.m */,
+				EA02DDF52085FDAB00548CE3 /* NSString+LMYHybrid.h */,
+				EA02DDF62085FDAB00548CE3 /* NSString+LMYHybrid.m */,
+				EA9572DB20862E2C0049819A /* LMYHybridToos.h */,
+				EA9572DC20862E2C0049819A /* LMYHybridToos.m */,
+				EA8DABC52091AADD0014EEC8 /* NSDictionary+LMYHybrid.h */,
+				EA8DABC62091AADD0014EEC8 /* NSDictionary+LMYHybrid.m */,
+				EA9572DE208631DF0049819A /* LMYHybirdSettings.plist */,
+				EA9572E3208637CC0049819A /* NSURL+LMYHybrid.h */,
+				EA9572E4208637CC0049819A /* NSURL+LMYHybrid.m */,
+				EA9572E9208723200049819A /* LMYHybridWebView.h */,
+				EA9572EA208723200049819A /* LMYHybridWebView.m */,
+				EA9572EC208974FD0049819A /* UIViewController+LMYHybrid.h */,
+				EA9572ED208974FD0049819A /* UIViewController+LMYHybrid.m */,
+				EA9572EF208986D50049819A /* NativeViewMap.plist */,
+				EA9572F12089C6A20049819A /* EnumTool.h */,
+			);
+			path = LMYHybrid;
+			sourceTree = "<group>";
+		};
+		EAC47AEE20B6B15A00B013CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAC47AF420B6B29B00B013CE /* Common */,
+				EAC47AF220B6B18A00B013CE /* 我的 */,
+				EAC47AF120B6B18400B013CE /* 商品 */,
+				EAC47AF020B6B18000B013CE /* 发现 */,
+				EAC47AEF20B6B16C00B013CE /* 首页 */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EAC47AEF20B6B16C00B013CE /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				EA02DDD42085F1C400548CE3 /* HomeViewController.h */,
+				EA02DDD52085F1C400548CE3 /* HomeViewController.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		EAC47AF020B6B18000B013CE /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				EA8DABBC209167690014EEC8 /* FindViewController.h */,
+				EA8DABBD209167690014EEC8 /* FindViewController.m */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		EAC47AF120B6B18400B013CE /* 商品 */ = {
+			isa = PBXGroup;
+			children = (
+				EA8DABBF209167720014EEC8 /* GoodsViewController.h */,
+				EA8DABC0209167720014EEC8 /* GoodsViewController.m */,
+			);
+			path = "商品";
+			sourceTree = "<group>";
+		};
+		EAC47AF220B6B18A00B013CE /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				EA8DABC22091677A0014EEC8 /* MineViewController.h */,
+				EA8DABC32091677A0014EEC8 /* MineViewController.m */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		EAC47AF320B6B27500B013CE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EAC47AFB20B79E2C00B013CE /* LLSegment */,
+				EA02DDEE2085F4E100548CE3 /* LMYHybrid */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EAC47AF420B6B29B00B013CE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EAC47AF520B6B31600B013CE /* LMYTabBar.h */,
+				EAC47AF620B6B31600B013CE /* LMYTabBar.m */,
+				EAC47AF820B6B4E000B013CE /* RootTabBarController.h */,
+				EAC47AF920B6B4E000B013CE /* RootTabBarController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EAC47AFB20B79E2C00B013CE /* LLSegment */ = {
+			isa = PBXGroup;
+			children = (
+				EAC47AFC20B79E2C00B013CE /* UIView+LLSegmentBar.m */,
+				EAC47AFD20B79E2C00B013CE /* LLSegmentBarConfig.h */,
+				EAC47AFE20B79E2C00B013CE /* LLSegmentBar.h */,
+				EAC47AFF20B79E2C00B013CE /* LLSegmentBarVC.h */,
+				EAC47B0020B79E2C00B013CE /* LLSegmentBarConfig.m */,
+				EAC47B0120B79E2C00B013CE /* UIView+LLSegmentBar.h */,
+				EAC47B0220B79E2C00B013CE /* LLSegmentBar.m */,
+				EAC47B0320B79E2C00B013CE /* LLSegmentBarVC.m */,
+			);
+			path = LLSegment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA02DDCD2085F1C400548CE3 /* HybridAppOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA02DDE42085F1C700548CE3 /* Build configuration list for PBXNativeTarget "HybridAppOC" */;
+			buildPhases = (
+				EA02DDCA2085F1C400548CE3 /* Sources */,
+				EA02DDCB2085F1C400548CE3 /* Frameworks */,
+				EA02DDCC2085F1C400548CE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HybridAppOC;
+			productName = HybridAppOC;
+			productReference = EA02DDCE2085F1C400548CE3 /* HybridAppOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA02DDC62085F1C400548CE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = lmy;
+				TargetAttributes = {
+					EA02DDCD2085F1C400548CE3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = EA02DDC92085F1C400548CE3 /* Build configuration list for PBXProject "HybridAppOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA02DDC52085F1C400548CE3;
+			productRefGroup = EA02DDCF2085F1C400548CE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA02DDCD2085F1C400548CE3 /* HybridAppOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA02DDCC2085F1C400548CE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA02DDDE2085F1C700548CE3 /* LaunchScreen.storyboard in Resources */,
+				EA02DDDB2085F1C700548CE3 /* Assets.xcassets in Resources */,
+				EA9572DF208631DF0049819A /* LMYHybirdSettings.plist in Resources */,
+				EA02DDD92085F1C400548CE3 /* Main.storyboard in Resources */,
+				EA9572F0208986D50049819A /* NativeViewMap.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA02DDCA2085F1C400548CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC47B0720B79E2C00B013CE /* LLSegmentBarVC.m in Sources */,
+				EA9572EB208723200049819A /* LMYHybridWebView.m in Sources */,
+				EA02DDD62085F1C400548CE3 /* HomeViewController.m in Sources */,
+				EAC47AF720B6B31600B013CE /* LMYTabBar.m in Sources */,
+				EA8DABC1209167720014EEC8 /* GoodsViewController.m in Sources */,
+				EA9572DD20862E2C0049819A /* LMYHybridToos.m in Sources */,
+				EAC47AFA20B6B4E000B013CE /* RootTabBarController.m in Sources */,
+				EA8DABBE209167690014EEC8 /* FindViewController.m in Sources */,
+				EA02DDE12085F1C700548CE3 /* main.m in Sources */,
+				EA02DDD32085F1C400548CE3 /* AppDelegate.m in Sources */,
+				EAC47B0620B79E2C00B013CE /* LLSegmentBar.m in Sources */,
+				EA8DABC72091AADD0014EEC8 /* NSDictionary+LMYHybrid.m in Sources */,
+				EA02DDF72085FDAB00548CE3 /* NSString+LMYHybrid.m in Sources */,
+				EAC47B0520B79E2C00B013CE /* LLSegmentBarConfig.m in Sources */,
+				EA9572E5208637CC0049819A /* NSURL+LMYHybrid.m in Sources */,
+				EA9572E82086E2850049819A /* TestViewController.m in Sources */,
+				EA8DABC42091677A0014EEC8 /* MineViewController.m in Sources */,
+				EA02DDF12085F4F300548CE3 /* LMYHybridViewController.m in Sources */,
+				EAC47B0420B79E2C00B013CE /* UIView+LLSegmentBar.m in Sources */,
+				EA9572EE208974FD0049819A /* UIViewController+LMYHybrid.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA02DDD72085F1C400548CE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA02DDD82085F1C400548CE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA02DDDC2085F1C700548CE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA02DDDD2085F1C700548CE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA02DDE22085F1C700548CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA02DDE32085F1C700548CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA02DDE52085F1C700548CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95L2V4G3PF;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = HybridAppOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.HybridAppOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA02DDE62085F1C700548CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95L2V4G3PF;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = HybridAppOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.HybridAppOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA02DDC92085F1C400548CE3 /* Build configuration list for PBXProject "HybridAppOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02DDE22085F1C700548CE3 /* Debug */,
+				EA02DDE32085F1C700548CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA02DDE42085F1C700548CE3 /* Build configuration list for PBXNativeTarget "HybridAppOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02DDE52085F1C700548CE3 /* Debug */,
+				EA02DDE62085F1C700548CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA02DDC62085F1C400548CE3 /* Project object */;
+}
